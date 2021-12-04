@@ -6,4 +6,8 @@ export type PreviewerProps = {
     top: string;
     bottom: string;
   };
+  style?: React.CSSProperties;
+  onMouseEnter: React.MouseEventHandler<HTMLDivElement>;
+  onMouseLeave: React.MouseEventHandler<HTMLDivElement>;
+  onClick: React.MouseEventHandler<HTMLDivElement>;
 };
