@@ -1,0 +1,9 @@
+.container {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+}
+
+.preview {
+  width: 100%;
+}
